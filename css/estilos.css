@@ -1,0 +1,177 @@
+
+
+*, *::before, *::after {box-sizing: border-box;}
+
+:root {
+    font-family: 'Young Serif', serif;
+}
+
+/* ----------------*/
+
+.header-inicio {
+    background-image: url("../imagenes/background.jpg"); /*imagen de fondo de cabecera*/
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    /*height: 100vh;
+    min-height: 60rem;
+    background-size: cover;*/
+    
+}
+
+footer {
+    background-color: black;
+    background-repeat: repeat;
+    color: whitesmoke;
+    /*color de la letra del */
+    /*position: fixed;*/
+
+    width: 100%;
+    text-align: center;
+}
+
+/* ----------------*/
+
+body {
+    background-color: ivory;
+}
+
+/* ----------------*/
+.navheader {
+    border: 1px solid blueviolet;
+    /*le da un borde solido y rojo*/
+    text-decoration: none;
+    /*le saca el subrayado */
+    padding: 10px;
+    /*le da un espacio entre las letras y el borde */
+    margin: 6px;
+    /*le da un espacio fuera del conorno*/
+    background-color: black;
+    /*color de fondo del cuadro*/
+    color: aliceblue;
+    /*color de las letras*/
+    border-radius: 5px;
+    /*redondea las puntas de la cajita*/
+    
+}
+
+a.navheader:hover,
+a.navheader:active {
+    background-color: indigo  /*los a de navheader solamente se pintan de color al pasar mouse*/
+}
+
+
+
+/* ----------------*/
+
+p.letramay::first-letter {
+    font-size: xx-large;
+}
+
+/* Primera Letra mayuscula del primer parrafo solamente */
+
+/*-----------------*/
+
+
+#whatsapp {
+    width: 60px;
+    /*tamaño del logo*/
+    position: fixed;
+    /*sticky, fixed, absolute, relative, static*/
+    bottom: 150px;
+    /*150px de distancia de la base de la pantalla*/
+    right: 50px;
+    /*50px de distancia de la derecha de la pantalla*/
+    /*animation: bounce;
+    animation-duration: 2s;*/
+}
+
+#logoppal {
+    width: 150px;
+    position: relative;
+    top: 0px;
+    left: 30px;
+}
+
+#flecha-arriba {
+    width: 35px;
+    /*tamaño del logo*/
+    position: fixed;
+    /*sticky, fixed, absolute, relative, static*/
+    bottom: 80px;
+    /*150px de distancia de la base de la pantalla*/
+    left: 20px;
+    /*50px de distancia de la izq de la pantalla*/
+}
+
+
+/* ----------------*/
+
+div {
+    color: rgb(31, 4, 4);
+}
+
+/*span {
+    width: 5%;
+}*/
+
+#contenedorcards {        /*tarjetas responsivas*/
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;  
+    justify-content: space-around ; 
+    align-content: space-around;  
+}
+
+#card {
+    width: 25vw;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#card img {
+    /*solo aplica para las imagenes dentro de card */
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px
+}
+
+
+#card h2 {
+    text-align: center;
+}
+
+
+#card p {
+    text-align: justify;
+    margin: 15px;
+}
+
+
+table {
+    text-align: center;
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    margin: auto;
+    width: 30%;
+}
+
+
+.mediano {
+    font-size: 30px;
+}
+
+
+.centrado {
+    text-align: center;
+}
+
+
+.derecha {
+    text-align: right;
+    text-decoration: none;
+    margin-right: 30px;
+
+}

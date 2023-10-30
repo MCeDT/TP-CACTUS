@@ -1,0 +1,245 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Cactus World</title>
+    <link rel="shortcut icon" href="./imagenes/cactus.png" type="image/x-icon">
+</head>
+
+FAVICON:
+<link rel="shortcut icon" href="./imagenes/cactus.png" type="image/x-icon">
+
+----
+
+TITULOS:
+
+<h1 align="center"> El Mundo de los Cactus </h1>  /// LEFT RIGHT JUSTIFY
+
+---
+
+PARRAFOS:
+
+<p> Videos </p>
+<p>Lorem100 </p>
+
+---
+
+IMAGENES:
+
+<img src="https://www.imagenxx/imagen.jpg" width="250" alt="Kalanchoe">
+
+<img src="./imagenes/nopal_cegador_opuntia_microdasys_4314_0_orig.jpg" width="250" heigth "300" alt="Nopal">
+
+
+
+Ir a un link dandole click a una imagen:
+
+<a href="https://www.instagram.com/ecologiaverde_/">
+   <img src="./imagenes/instagram.png" width="25" alt="instagram">
+</a>
+
+
+---
+
+VIDEOS:
+
+Traídos de youtube:
+
+<iframe src="https://www.youtube.com/embed/KDB2xRbJph4" title="Cómo REPRODUCIR SUCULENTAS por HOJA 🌵✅  | Propagación Paso a Paso" width="893" height="502"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     
+---
+
+MAPAS:
+
+Ir al Mapa (a traves de darle a un link):
+<a href="https://maps.app.goo.gl/WM986QTyU8FsYviX9" target="_blank"> Ir al Mapa </a> <br>
+
+Mostrar el Mapa:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52545.081397655806!2d-58.51954886875!3d-34.602452400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca066fcfe1b1%3A0x2ff48da34f5a7e3f!2sMundo%20Cactus%20Villa%20Crespo!5e0!3m2!1ses!2sar!4v1696830221736!5m2!1ses!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+---
+
+BARRA NAVEGACION - Header: (barra principal superior)
+
+<nav align="center">
+     <a href="index.html"> Home</a>
+     <a href="productos.html"> Nuestros Productos </a>
+     <a href="quienessomos.html"> Quienes Somos </a>
+     <a href="sucursales.html"> Sucursales </a>
+     <a href="https://www.ecologiaverde.com/" target="_blank"> Ecologia Verde</a>
+</nav>
+
+---
+
+BARRA NAVEGACION - Footer/etc: (redes sociales)
+
+ <nav align="right">
+      <a href="https://www.instagram.com/ecologiaverde_/">
+                <img width="25" src="./imagenes/instagram.png" alt="">
+      </a>
+      <a href="https://www.youtube.com/channel/UC2S0TJr67_443qsLFLyhRNA">
+                <img width="25" src="./imagenes/youtube.png" alt="">    
+      </a>
+</nav>
+
+
+---
+
+LISTAS: // ul (simbolos) // ol (numeradas A a 1 I i )
+
+<ul type="square">                                 (Tipos: circle, square, disk)
+    <li>Sansevieria o Lengua de Tigre <br></li>
+    <li>Planta candelabro <br> </li>              
+    <li type="circle">Cactus de Navidad <br></li>  <!-- circle para este -->
+    <li>Kalanchoe <br></li>
+
+</ul>
+
+<ol type="i">   (Tipos: A a 1 I i )
+    <li>Nopal cegador (Opuntia microdasys) <br></li>
+      <ul>
+          <li>Blancos</li>
+          <li>Amarillos</li>
+          <li>Rosas</li>
+      </ul>
+    <li>Mamilarias <br></li>
+    <li>Astrophytum <br></li>
+</ol>
+   
+---
+
+TABLAS: (td datos // tr row-fila // th head-encabezado // colspan (casillas unifica) 
+
+<table border="1" >
+      	<tr>
+             	<th colspan="2"><i>Calendario de Cursos</i></th>
+      	</tr>
+      
+	<tr>
+		<th>Cactus</th>
+                <th>Suculentas</th>
+        </tr>
+
+        <tr>
+                <td>10 Marzo 2024</td>
+                <td>20 Marzo 2024</td>
+        </tr>
+            <tr>
+                <td>17 Junio 2024</td>
+                <td>07 Junio 2024</td>
+            </tr>
+        <tr>
+                <td> 17 Septiembre 2024 </td>
+                <td> 11 Septiembre 2024 </td>
+        </tr>
+</table>
+
+---
+
+DOWNLOAD y ABRIR ARCHIVOS: (Archivos pdf, TXT, xlsx, etc)
+
+<a href="./imagenes/Guía-Practica-para-Cultivar-Cactáceas-y-Suculentas-PDF-CultivandoFlores.Com_.pdf" target="_blank"> Abrir Guía </a>  // ABRE
+<a href="https://www.ecologiaverde.com/GUIA.PDF download" Descargar PDF // DESCARGA
+
+
+---
+
+EMAIL:
+
+<a href="mailto:cactusworld.AR@gmail.com">Contactanos por Correo</a>
+<a href="mailto:cactusworld.AR@gmail.com?subject=Contacto">Contactanos por Correo</a>
+
+---
+
+FORMULARIOS:
+
+ <form action=""> 					 
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">      (Type: text, number, checkbox, radio, password, img, date, mail, file)
+
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido"> 
+
+        <label for="edad">Edad</label>
+        <input type="number" max=100 min=0 name="edad" id="edad">
+
+        <label for="sexo"><b> Sexo: </b></label> <br>
+        <input type="radio" name="sexo"> Hombre
+        <input type="radio" name="sexo"> Mujer
+        <input type="radio" name="sexo"> Cactus
+
+        <label for="interes"><b> Interes: </b></label> <br>
+        <input type="checkbox" name="interes"> Cactus
+        <input type="checkbox" name="interes"> Suculentas
+        <input type="checkbox" name="interes"> Otras
+
+	<label for="fnac">Fecha Nacimiento</label>
+        <input type="date" name="fnac" id="fnac">
+     
+        <label for="clave"> Clave </label>
+        <input type="password" name="clave" id="clave">
+
+        <label for="email">Mail</label>
+        <input type="email" name="email" id="email">
+
+	<label for="file">Archivo</label>
+        <input type="file" name="file" id="file">
+
+	
+</form>
+
+---
+
+ENLACES:
+
+<a href="sucursales.html"> Sucursales </a>
+
+<a href="https://www.ecologiaverde.com/" target="_blank"> Ecologia Verde</a>
+
+<a href="./imagenes/Guía-Practica-para-Cultivar-Cactáceas-y-Suculentas-PDF-CultivandoFlores.Com_.pdf" target="_blank"> Descargar Guía </a>
+
+
+<a href="https://www.instagram.com/ecologiaverde_/">
+   <img src="./imagenes/instagram.png" width="25" alt="instagram">
+</a>
+
+---
+
+target="_blank"
+
+---
+
+<br>
+<hr>
+
+&nbsp
+&#160
+
+br*6
+hr*6
+li*6
+a*6
+
+---
+
+ATAJOS:
+CTRL+K+C  pasa a comentario el texto marcado
+CTRL+A    pinta todo el codigo
+CTRL+C    copia 
+CTRL+V    pega
+CTRL+Z    undo
+CTRL++/-  agranda/achica la letra del codigo
+CTRL+Z    si la linea de codigo es larga la corta y la pone abajo
+
+---
+
+Webs Practicas:
+
+www.netlify.com
+www.flaticon.com
+www.convertico.com
+
+
